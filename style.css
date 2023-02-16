@@ -1,0 +1,139 @@
+/* Background Images  */
+body,
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+.bg-img {
+    background-image: url("https://images4.alphacoders.com/116/1163959.jpg");
+    height: 100%;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container  */
+.container {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/pokedex.png");
+}
+
+/* Search bar  */
+.search-bar {
+    position: relative;
+    left: 29%;
+    top: 23%;
+}
+
+
+
+.search-bar p {
+    margin-bottom: 2px;
+    color: rgb(251, 74, 4);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-bar #search-input {
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(227, 15, 15);
+}
+
+::placeholder {
+    color: white;
+}
+
+/* Right details  */
+.pokedex-right p {
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pokedex-right .title {
+    color: rgb(251, 74, 4);
+}
+.name {
+    margin-left: 230px;
+    margin-top: 150px;
+}
+
+.height {
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.bio {
+    margin-left: 230px;
+    margin-top: 40px;
+}
+
+.type {
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+.weight {
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+.ten-pokemon {
+    color:rgb(12, 76, 76)
+}
+
+.loai {
+    color: rgb(12, 76, 76);
+}
+
+.can-nang {
+    color: rgb(12, 76, 76);
+}
+
+.tieu-su {
+    color: rgb(12, 76, 76);
+}
+
+.chieu-cao {
+    color: rgb(12, 76, 76);
+}
+
+/* Left details  */
+.bg-img2 {
+    width: 344px;
+    height: 340px;
+    position: absolute;
+    top: 54%;
+    right: 33%;
+    transform: translate(-50%, -51%);
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media4.giphy.com/media/TRebCjNbc4dIA/giphy.gif?cid=ecf05e47f0zoozbaiduvq8zkiqvvhodkjuf9pdsqnff7i169&rid=giphy.gif&ct=g");
+}
+
+.pokemon img {
+    margin-top: 3%;
+}
+
+.pokemon p {
+    font-size: xx-large;
+    margin-top: -150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
